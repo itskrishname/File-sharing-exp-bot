@@ -19,30 +19,30 @@ from logging.handlers import RotatingFileHandler
 #--------------------------------------------
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8154426339:")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", "24828197")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "d36e278e89ebeb900aeda4128d413a77") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "Krishna") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "7660990923")) # Owner id
 #--------------------------------------------
-PORT = os.environ.get("PORT", "8001")
+PORT = os.environ.get("PORT", "8080")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_NAME = os.environ.get("DATABASE_NAME", "krishna")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/SECRECT_BOT_UPDATES")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "0")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "0")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/SECRECT_BOT_UPDATES")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
@@ -80,7 +80,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @nova_flix</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @SECRECT_BOT_UPDATES</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
@@ -91,10 +91,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "rohit_1888")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Lord_Vasudev_Krishna")
 UPI_ID = os.environ.get("UPI_ID", "rohit23pnb@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/rohit_1888")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Lord_Vasudev_Krishna")
 #--------------------------------------------
 #Time and its price
 #7 Days
