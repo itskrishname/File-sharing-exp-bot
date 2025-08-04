@@ -93,7 +93,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "Lord_Vasudev_Krishna")
 UPI_ID = os.environ.get("UPI_ID", "@Lord_Vasudev_Krishna")
-QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
+QR_PIC = os.environ.get("QR_PIC", "https://image.tmdb.org/t/p/original/gespPE81A2RYvMxl9XaVNvIgevS.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Lord_Vasudev_Krishna")
 #--------------------------------------------
 #Time and its price
