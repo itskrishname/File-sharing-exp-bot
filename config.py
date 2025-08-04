@@ -45,7 +45,7 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "0")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SECRECT_BOT_UPDATES")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.tmdb.org/t/p/original/uqXTeRohyYzB7WMTZ6iSiN4rDuG.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
